@@ -1,0 +1,56 @@
+{
+  "name": "browser-tools-mcp",
+  "version": "1.0.0",
+  "description": "Ferramentas para navegador que auxiliam no desenvolvimento e depuração de aplicações web",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "lint": "eslint src --ext .ts",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "browser",
+    "tools",
+    "debug",
+    "performance",
+    "development"
+  ],
+  "author": "Gabriel Kevin",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabrielkevinxd/browser-tools-mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gabrielkevinxd/browser-tools-mcp/issues"
+  },
+  "homepage": "https://github.com/gabrielkevinxd/browser-tools-mcp#readme",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.31.0"
+  },
+  "peerDependencies": {
+    "express": "^4.18.2",
+    "react": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@types/jest": "^29.5.3",
+    "@types/node": "^20.4.5",
+    "@types/react": "^18.2.17",
+    "@typescript-eslint/eslint-plugin": "^6.2.0",
+    "@typescript-eslint/parser": "^6.2.0",
+    "eslint": "^8.46.0",
+    "express": "^4.18.2",
+    "jest": "^29.6.2",
+    "react": "^18.2.0",
+    "ts-jest": "^29.1.1",
+    "typescript": "^5.1.6"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ]
+}
